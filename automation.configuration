@@ -1,0 +1,16 @@
+﻿### This is file contains structore of key:value in each line
+### all keys here are require for the automation to operate properly
+### comants (marked by ### before) and empty line are supported
+### ewual sign '=' inside a Value is supported (only the first equal is used to separate key and value)
+
+oneSimBaseUrl=http://localhost:4173
+
+mongoDBConnectionString=mongodb://localhost:27071
+
+
+SeleniumLocatorTimeSeconds=30
+SeleniumLocatorWarningTimeSeconds=10
+SeleniumDriverFolderPath=dependencies\webDrivers
+SeleniumCiWebDriverUrl=http://30.110.16.248:4444
+
+RestApiTimeoutSeconds=10
